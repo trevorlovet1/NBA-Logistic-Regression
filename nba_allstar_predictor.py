@@ -19,7 +19,7 @@ nba_relevant_data = nba_data[relevant_columns]
 # Dropping Nulls
 nba_relevant_data.dropna(inplace=True)
 
-# Split the data into features and target
+# Split the data into features (X) and target (y)
 X = nba_relevant_data[['PTS', 'AST', 'TRB']]
 y = nba_relevant_data['allstar']
 
