@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 
 # Load  dataset
-file_path = '/Users/trevorlovet/Downloads/finalmerge.csv'
+file_path = '/Users/trevorlovet/Downloads/three_seasons_nba_totals.csv'
 nba_data = pd.read_csv(file_path)
 
 
